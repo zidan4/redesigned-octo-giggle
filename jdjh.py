@@ -1,7 +1,7 @@
 def dir_bruter(word_queue,extensions=None):
   while not word_queue.empty():
     attempt = word_queue.get()
-    attempt_list = []
+    attempt_list = [] 
     
     # check to see if there is a file extension; if not,
     # it's a directory path we're bruting
